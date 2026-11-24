@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THIRAE — Creative Video Editing Studio | Less noise. More impact.</title>
+  <meta name="description" content="THIRAE is an independent creative video-editing studio. Commercial and product ads, skincare and beauty, tech and SaaS videos, motion graphics, AI voiceover, YouTube, gaming, music and storytelling edits.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="THIRAE — Less noise. More impact.">
+  <meta property="og:description" content="Independent creative video-editing studio. Clean, cinematic edits across ads, motion graphics, YouTube and storytelling.">
+  <meta property="og:image" content="assets/img/og-preview.jpg">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"THIRAE","slogan":"Less noise. More impact.","email":"thirae.edit@gmail.com","telephone":"+91 73056 68950","sameAs":["https://www.instagram.com/thirae.edit/"]}
+  </script>
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="brand" href="#home" aria-label="THIRAE home">
+    <img src="assets/img/thirae-mark.png" alt="THIRAE logo" width="34" height="34">
+    <span>THIRAE</span>
+  </a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  <nav id="menu" class="menu">
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#approach">Approach</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="menu-cta">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <img class="hero-logo reveal" src="assets/img/thirae-mark.png" alt="THIRAE logo" width="96" height="96">
+      <p class="eyebrow reveal">Independent creative video studio</p>
+      <h1 class="reveal">Less noise.<br><em>More impact.</em></h1>
+      <p class="lead reveal">THIRAE shapes ideas into clean, cinematic edits. Intentional pacing, refined visuals and purposeful sound, for brands and creators who value clarity.</p>
+      <a class="btn reveal" href="#work">Explore the work <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <figure class="showreel reveal">
+      <div class="showreel-frame">
+        <video id="heroVideo" src="assets/videos/tech-showcase.mp4" poster="assets/posters/tech-showcase.jpg" autoplay muted loop playsinline preload="metadata" aria-label="THIRAE featured video: technology product showcase"></video>
+        <button class="sound-btn" id="soundBtn" type="button" aria-pressed="false">Sound off</button>
+      </div>
+      <figcaption>Featured &mdash; Tech Product Showcase</figcaption>
+    </figure>
+  </section>
+
+  <!-- SELECTED WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <p class="eyebrow">Selected work</p>
+      <h2>Six edits. One identity.</h2>
+      <div class="filters" role="group" aria-label="Filter projects by category">
+        <button class="filter is-active" data-filter="all" type="button">All</button>
+        <button class="filter" data-filter="product" type="button">Product &amp; Commercial</button>
+        <button class="filter" data-filter="beauty" type="button">Skincare &amp; Beauty</button>
+        <button class="filter" data-filter="tech" type="button">Tech</button>
+        <button class="filter" data-filter="motion" type="button">Motion Graphics</button>
+        <button class="filter" data-filter="story" type="button">Storytelling</button>
+        <button class="filter" data-filter="youtube" type="button">YouTube</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <article class="card" data-cat="product" data-video="assets/videos/boat-ad.mp4" data-orient="landscape">
+          <button class="thumb" type="button" aria-label="Play: boAt Weekend Sale Ad">
+            <img src="assets/posters/boat-ad.jpg" alt="boAt weekend sale advertisement" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:09 &middot; 16:9</span>
+          </button>
+          <div class="meta">
+            <p class="tag">Commercial &middot; Product Ad</p>
+            <h3>boAt &mdash; Weekend Sale</h3>
+            <p>Fast, clean product advertisement for a smartwatch and headphones, with sale pricing and sharp on-screen typography.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="beauty product" data-video="assets/videos/skincare-serum.mp4" data-orient="vertical">
+          <button class="thumb" type="button" aria-label="Play: Vitamin C Serum Glow">
+            <img src="assets/posters/skincare-serum.jpg" alt="Vitamin C serum skincare advertisement" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:07 &middot; 9:16</span>
+          </button>
+          <div class="meta">
+            <p class="tag">Skincare &amp; Beauty</p>
+            <h3>Vitamin C Serum &mdash; Glow</h3>
+            <p>Skincare animation that opens on a &ldquo;how to make skin glow&rdquo; search, then moves into a warm citrus palette with sound effects.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="tech product" data-video="assets/videos/tech-showcase.mp4" data-orient="landscape">
+          <button class="thumb" type="button" aria-label="Play: Tech Product Showcase">
+            <img src="assets/posters/tech-showcase.jpg" alt="Technology product showcase on red podiums" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:14 &middot; 16:9</span>
+          </button>
+          <div class="meta">
+            <p class="tag">Technology &middot; Product Animation</p>
+            <h3>Tech Product Showcase</h3>
+            <p>Animated showcase of a phone, headphones and watch on red podiums, with sound design and a clear call to action.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="motion tech" data-video="assets/videos/chatgpt-motion.mp4" data-orient="landscape">
+          <button class="thumb" type="button" aria-label="Play: ChatGPT Prompt Motion Graphics">
+            <img src="assets/posters/chatgpt-motion.jpg" alt="ChatGPT-themed motion graphics" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:06 &middot; 16:9</span>
+          </button>
+          <div class="meta">
+            <p class="tag">Motion Graphics</p>
+            <h3>ChatGPT &mdash; Prompt Motion</h3>
+            <p>Motion-graphics piece built around a typing prompt box, floating media tiles and a closing call to action.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="story motion" data-video="assets/videos/messi-story.mp4" data-orient="vertical">
+          <button class="thumb" type="button" aria-label="Play: Messi Story">
+            <img src="assets/posters/messi-story.jpg" alt="Messi career story kinetic typography" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:18 &middot; 9:16</span>
+          </button>
+          <div class="meta">
+            <p class="tag">Sports &middot; Storytelling</p>
+            <h3>Messi &mdash; The Journey</h3>
+            <p>Sports editing experiment using kinetic type and cut-out graphics to trace a career from Rosario to World Cup glory.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="youtube" data-video="assets/videos/talking-head.mp4" data-orient="vertical">
+          <button class="thumb" type="button" aria-label="Play: Talking-Head Explainer">
+            <img src="assets/posters/talking-head.jpg" alt="Talking-head explainer with animated captions" loading="lazy">
+            <span class="play" aria-hidden="true"></span>
+            <span class="badge">0:44 &middot; 9:16</span>
+          </button>
+          <div class="meta">
+            <p class="tag">YouTube &amp; Talking Head</p>
+            <h3>Talking-Head Explainer</h3>
+            <p>Vertical talking-head edit with animated captions, highlighted keywords and cutaway graphics that keep the story moving.</p>
+          </div>
+        </article>
+      </div>
+      <p class="empty" id="empty" hidden>No projects in this category yet. More work is on the way.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section alt" id="services">
+    <div class="wrap">
+      <p class="eyebrow">Services</p>
+      <h2>One studio, many formats.</h2>
+      <p class="lead">Different projects carry different moods. The THIRAE standard of care stays the same.</p>
+      <ol class="services">
+        <li><h3>Commercial Advertisements</h3><p>Brand-led spots with a clear message and a confident finish.</p></li>
+        <li><h3>Product Advertisements</h3><p>Features, pricing and offers presented cleanly, built to convert.</p></li>
+        <li><h3>Skincare &amp; Beauty Ads</h3><p>Soft light, refined colour and tactile sound for beauty brands.</p></li>
+        <li><h3>SaaS &amp; Technology Videos</h3><p>Product stories and interface animations that explain at a glance.</p></li>
+        <li><h3>Motion Graphics &amp; Animation</h3><p>Typography, shapes and movement designed with purpose.</p></li>
+        <li><h3>AI Voiceover Videos</h3><p>Scripted, voiced and paced to hold attention from start to end.</p></li>
+        <li><h3>YouTube &amp; Talking-Head</h3><p>Tight cuts, captions and graphics that keep viewers watching.</p></li>
+        <li><h3>Gaming &amp; Cinematic Trailers</h3><p>High-energy edits with dramatic pacing and sound.</p></li>
+        <li><h3>Music Videos &amp; Artist Visuals</h3><p>Visuals cut to rhythm, mood and the artist&rsquo;s identity.</p></li>
+        <li><h3>Promotional &amp; Storytelling</h3><p>Narrative edits that give an idea a beginning, middle and end.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section" id="approach">
+    <div class="wrap">
+      <p class="eyebrow">Our approach</p>
+      <h2>Nothing unnecessary.</h2>
+      <div class="approach">
+        <div><span>01</span><h3>Intentional pacing</h3><p>Every cut earns its place. Rhythm guides attention without rushing it.</p></div>
+        <div><span>02</span><h3>Refined visuals</h3><p>Clean compositions and careful colour grading, with no effects for effect&rsquo;s sake.</p></div>
+        <div><span>03</span><h3>Purposeful sound</h3><p>Sound design that lifts a moment, supports the story and stays out of the way.</p></div>
+        <div><span>04</span><h3>Clean typography</h3><p>Modern, readable type that carries the message and respects the frame.</p></div>
+        <div><span>05</span><h3>Storytelling</h3><p>Whatever the format, every edit is built around one clear idea.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section alt" id="about">
+    <div class="wrap about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>An independent studio for clear, memorable edits.</h2>
+      </div>
+      <div class="about-copy">
+        <p>THIRAE is an independent creative video-editing studio. It works across advertising, motion graphics, social and long-form content, keeping one consistent creative identity while letting each project find its own mood.</p>
+        <p>The studio is growing with every project, and the work, the craft and the services grow with it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h2>Let&rsquo;s make something with impact.</h2>
+      <ul class="contact-list">
+        <li><span>Phone</span><a href="tel:+917305668950">+91 73056 68950</a></li>
+        <li><span>Email</span><a href="mailto:thirae.edit@gmail.com">thirae.edit@gmail.com</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/thirae.edit/" target="_blank" rel="noopener">@thirae.edit</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <img src="assets/img/thirae-mark.png" alt="THIRAE logo" width="28" height="28">
+  <p>&copy; <span id="year">2026</span> THIRAE. Less noise. More impact.</p>
+  <a href="#top">Back to top &uarr;</a>
+</footer>
+
+<!-- Video lightbox -->
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-label="Video player">
+  <button class="modal-close" id="modalClose" type="button" aria-label="Close video">&times;</button>
+  <video id="modalVideo" controls playsinline preload="none"></video>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
